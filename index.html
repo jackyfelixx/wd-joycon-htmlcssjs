@@ -7,40 +7,27 @@
     <title>JoyCon</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <script src="script.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
     <div class="joycon-container">
         <div class="text-output">
-            <div class="output" id="textField" >
-            </div>
+            <input class="display-box" type="text" id="result" disabled />
         </div>
         <div class="joycon-pad">
             <div class="joycon-pad-left">
                 <div class="joycon-pad-left-top">
-                    <div class="joycon-pad-left-button">
-                        <p>up</p>
-                    </div>
+                    <input type="button" class="joycon-pad-left-button" value="up" onclick="display('up')">
                 </div>
                 <div class="joycon-pad-left-bottom">
-                    <div class="joycon-pad-left-button" onclick="displayText()">
-                        <p>left</p>
-                    </div>
-                    <div class="joycon-pad-left-button" onclick="displayText()">
-                        <p>down</p>
-                    </div>
-                    <div class="joycon-pad-left-button" onclick="displayText()">
-                        <p>right</p>
-                    </div>
+                    <input type="button" class="joycon-pad-left-button" value="left" onclick="display('left')">
+                    <input type="button" div class="joycon-pad-left-button" value="down" onclick="display('down')">
+                    <input type="button" class="joycon-pad-left-button" value="right" onclick="display('right')">
                 </div>
             </div>
             <div class="joycon-pad-right">
-                <div class="joycon-pad-right-button" onclick="displayText()">
-                    <p>B</p>
-                </div>
-                <div class="joycon-pad-right-button" onclick="displayText()"> 
-                    <p>A</p>
-                </div>
+                <input type="button" class="joycon-pad-right-button" value="B">
+                <input type="button" class="joycon-pad-right-button" value="A"> 
             </div>
         </div>
         <div class="desc">

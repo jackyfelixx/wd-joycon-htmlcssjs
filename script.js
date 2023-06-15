@@ -1,3 +1,3 @@
-function displayText() {
-    document.getElementById("displayText()").innerHTML = "Hello World";
-  }
+function display(value) {
+    document.getElementById("result").value += value + " ";
+}
