@@ -75,3 +75,14 @@ body {
 .joycon-pad-right-button:hover {
     background-color: #FEA1A1;
 }
+.desc{
+    display: block;
+    margin-top: 32px;
+    font-family: 'Poppins';
+}
+.desc p {
+    display: flex;
+    justify-content: end;
+    margin-right: 300px;
+    font-weight: 600;
+}

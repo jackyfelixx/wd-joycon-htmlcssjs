@@ -7,12 +7,12 @@
     <title>JoyCon</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="joycon-container">
         <div class="text-output">
-            <div class="output">
-                <p></p>                
+            <div class="output" id="textField" >
             </div>
         </div>
         <div class="joycon-pad">
@@ -23,26 +23,30 @@
                     </div>
                 </div>
                 <div class="joycon-pad-left-bottom">
-                    <div class="joycon-pad-left-button">
+                    <div class="joycon-pad-left-button" onclick="displayText()">
                         <p>left</p>
                     </div>
-                    <div class="joycon-pad-left-button">
+                    <div class="joycon-pad-left-button" onclick="displayText()">
                         <p>down</p>
                     </div>
-                    <div class="joycon-pad-left-button">
+                    <div class="joycon-pad-left-button" onclick="displayText()">
                         <p>right</p>
                     </div>
                 </div>
             </div>
             <div class="joycon-pad-right">
-                <div class="joycon-pad-right-button">
+                <div class="joycon-pad-right-button" onclick="displayText()">
                     <p>B</p>
                 </div>
-                <div class="joycon-pad-right-button">
+                <div class="joycon-pad-right-button" onclick="displayText()"> 
                     <p>A</p>
                 </div>
             </div>
         </div>
+        <div class="desc">
+            <p>21430100 - Jacky Felix</p>
+            <p>Link: https://github.com/jackyfelixx/wd-joycon-htmlcssjs</p>
+        </div>        
     </div>
     <!-- buat komponen yang menggambarkan controller @MUTAMA -->
     <!--    [^]                -->
