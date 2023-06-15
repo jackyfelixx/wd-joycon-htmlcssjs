@@ -1,0 +1,77 @@
+body {
+    justify-content: center;
+}
+
+.joycon-container {
+    display: block;
+    justify-content: center;
+}
+.text-output {
+    display: flex;
+    justify-content: center;
+}
+.output {
+    width: 500px;
+    height: 80px;
+    box-shadow: 0px 0px 10px grey;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    border-radius: 25px;
+}
+.joycon-pad {
+    display: flex;
+    justify-content: center;
+}
+.joycon-pad p{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', 'Century Gothic';
+    font-weight: 600;
+}
+.joycon-pad-left {
+    background-color: #A7ECEE;
+    align-items: center;
+    padding: 48px;
+    border-radius: 25px 0px 0px 25px;
+    box-shadow: -5px 0px 10px rgb(128,128,128, 0.5);
+}
+.joycon-pad-left-button {
+    background-color: aliceblue;
+    border: 2px solid;
+    align-items: center;
+    padding: 8px;
+    border-radius: 20px;
+    margin: 8px;
+    width: 60px;
+}
+.joycon-pad-left-bottom {
+    display: flex;
+    justify-content: center;
+}
+.joycon-pad-left-top {
+    display: flex;
+    justify-content: center;
+}
+.joycon-pad-right {
+    background-color: #ECF8F9;
+    align-items: center;
+    display: flex;
+    padding: 104px;
+    border-radius: 0px 25px 25px 0px;
+    box-shadow: 5px 0px 10px rgb(128,128,128, 0.5);
+}
+.joycon-pad-right-button {
+    background-color: #F2D8D8;
+    border: 2px solid;
+    align-items: center;
+    padding: 4px;
+    border-radius: 20px;
+    margin: 8px;
+    width: 60px;
+}
+.joycon-pad-left-button:hover {
+    background-color: #FFE569;
+}
+.joycon-pad-right-button:hover {
+    background-color: #FEA1A1;
+}
